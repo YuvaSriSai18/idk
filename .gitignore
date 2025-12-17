@@ -3,8 +3,17 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+utils/service_account.json
+firebase-key.json
+
+# Documentation
 API_FLOW_DOCUMENTATION.md 
 SETUP_GUIDE.md
+
 # C extensions
 *.so
 
