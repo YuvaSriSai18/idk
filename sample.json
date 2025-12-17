@@ -1,0 +1,352 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "TtMVEdejwC2S_Wjvn69xigg-_64",
+  "nextPageToken": "CAoQAA",
+  "regionCode": "IN",
+  "pageInfo": {
+    "totalResults": 498,
+    "resultsPerPage": 10
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ac2RYNZoJR5SD2gMlZOqa8O184c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WzvMdAEzAAk"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-16T18:21:10Z",
+        "channelId": "UCbEd9lNwkBGLFGz8ZxsZdVA",
+        "title": "RockED Hiring Interns🔥Apply Now",
+        "description": "Connect 1:1 with me for placement help and resume review: https://topmate.io/ashishcode ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WzvMdAEzAAk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WzvMdAEzAAk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WzvMdAEzAAk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ashish Kumar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-16T18:21:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wbJ0wWELxbem5fLP0BDWVW0IfqE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KEI4ZFoR3WE"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-16T15:08:11Z",
+        "channelId": "UCbEd9lNwkBGLFGz8ZxsZdVA",
+        "title": "Speedopus Hiring Intern🔥Apply Now | Multiple Opportunities",
+        "description": "Connect 1:1 with me for placement help and resume review: https://topmate.io/ashishcode Links: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KEI4ZFoR3WE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KEI4ZFoR3WE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KEI4ZFoR3WE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ashish Kumar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-16T15:08:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IL0gHNV49LbyyBFOQxqK-rENuac",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4dqc6ju2A8E"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-16T11:36:55Z",
+        "channelId": "UCbEd9lNwkBGLFGz8ZxsZdVA",
+        "title": "S&amp;P Global Hiring Interns🔥Apply Now | 2026,2027",
+        "description": "Connect 1:1 with me for placement help and resume review: https://topmate.io/ashishcode ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4dqc6ju2A8E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4dqc6ju2A8E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4dqc6ju2A8E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ashish Kumar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-16T11:36:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "b6oGztJpL8jmhzifsAgWQy7jaqM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1APaCCtcg2k"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-16T09:09:19Z",
+        "channelId": "UCbEd9lNwkBGLFGz8ZxsZdVA",
+        "title": "Sumo Logic Hiring Freshers🔥Apply Now | 2025,2024,2023",
+        "description": "Connect 1:1 with me for placement help and resume review: https://topmate.io/ashishcode ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1APaCCtcg2k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1APaCCtcg2k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1APaCCtcg2k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ashish Kumar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-16T09:09:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ew_NTQXVlGxvmJ-ntchJd5JZfqs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xvrhzc-FdXI"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-15T15:07:10Z",
+        "channelId": "UCbEd9lNwkBGLFGz8ZxsZdVA",
+        "title": "BrowserStack Hiring Freshers🔥Apply Now | 2026",
+        "description": "Connect 1:1 with me for placement help and resume review: https://topmate.io/ashishcode ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xvrhzc-FdXI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xvrhzc-FdXI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xvrhzc-FdXI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ashish Kumar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-15T15:07:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1Fetj56abS7slTTGoNHM_TYNas8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fb5Oij7QGpo"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-15T09:31:10Z",
+        "channelId": "UCbEd9lNwkBGLFGz8ZxsZdVA",
+        "title": "Branch International Hiring Interns🔥Apply Now | 2026",
+        "description": "Connect 1:1 with me for placement help and resume review: https://topmate.io/ashishcode ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fb5Oij7QGpo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fb5Oij7QGpo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fb5Oij7QGpo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ashish Kumar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-15T09:31:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "93EOsKBosEdzJAbhOkHcbl3qC48",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2H_phJYXCVE"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-14T17:42:40Z",
+        "channelId": "UCbEd9lNwkBGLFGz8ZxsZdVA",
+        "title": "Park+ Hiring Interns🔥Apply Now | 2025,2026",
+        "description": "Connect 1:1 with me for placement help and resume review: https://topmate.io/ashishcode ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2H_phJYXCVE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2H_phJYXCVE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2H_phJYXCVE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ashish Kumar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-14T17:42:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fF52T7nIqvMNXDsuJXiNzcmLXcI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "s38SbLB7IoU"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-14T15:45:22Z",
+        "channelId": "UCbEd9lNwkBGLFGz8ZxsZdVA",
+        "title": "To The New Hiring Freshers🔥Apply Now | 2026",
+        "description": "Connect 1:1 with me for placement help and resume review: https://topmate.io/ashishcode Referral ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s38SbLB7IoU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s38SbLB7IoU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s38SbLB7IoU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ashish Kumar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-14T15:45:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "s4OWUzdkmM0NykrBfvB3_vbjk4Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F7TW4-TMWCI"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-14T10:33:35Z",
+        "channelId": "UCbEd9lNwkBGLFGz8ZxsZdVA",
+        "title": "Skysecure Direct Test Hiring🔥Open to All",
+        "description": "Connect 1:1 with me for placement help and resume review: https://topmate.io/ashishcode ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F7TW4-TMWCI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F7TW4-TMWCI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F7TW4-TMWCI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ashish Kumar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-14T10:33:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HSGcScMiAK40186IVNo8rnWeNro",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JF58h7uXQ6Y"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-13T15:09:01Z",
+        "channelId": "UCbEd9lNwkBGLFGz8ZxsZdVA",
+        "title": "GE Aerospace Hiring Interns🔥Apply Now | Multiple Opportunities",
+        "description": "Link: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JF58h7uXQ6Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JF58h7uXQ6Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JF58h7uXQ6Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ashish Kumar",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-13T15:09:01Z"
+      }
+    }
+  ]
+}

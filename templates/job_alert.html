@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Job Openings</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fb;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background-color: #ffffff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    .header {
+      background: linear-gradient(135deg, #4f46e5, #6366f1);
+      padding: 28px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .header p {
+      margin-top: 8px;
+      font-size: 14px;
+      opacity: 0.95;
+    }
+
+    .content {
+      padding: 28px;
+    }
+
+    .job-card {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 22px;
+      background-color: #fafafa;
+    }
+
+    .job-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #111827;
+      margin-bottom: 4px;
+    }
+
+    .company {
+      font-size: 14px;
+      color: #4f46e5;
+      margin-bottom: 12px;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: #374151;
+      margin-bottom: 12px;
+    }
+
+    .meta span {
+      display: inline-block;
+      margin-right: 12px;
+      margin-bottom: 6px;
+    }
+
+    .skills {
+      font-size: 13px;
+      color: #374151;
+      margin-bottom: 14px;
+    }
+
+    .skills strong {
+      color: #111827;
+    }
+
+    .summary {
+      font-size: 14px;
+      color: #374151;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .apply-btn {
+      display: inline-block;
+      padding: 10px 18px;
+      background-color: #4f46e5;
+      color: #ffffff !important;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .apply-btn:hover {
+      background-color: #4338ca;
+    }
+
+    .footer {
+      background-color: #f9fafb;
+      padding: 18px;
+      text-align: center;
+      font-size: 12px;
+      color: #6b7280;
+    }
+
+    .footer a {
+      color: #4f46e5;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .content {
+        padding: 20px;
+      }
+
+      .job-title {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <h1>🚨 New Job Openings Detected</h1>
+      <p>Fresh opportunities you should not miss</p>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+
+      <!-- 🔁 LOOP START: openings[] -->
+      {{#each openings}}
+      <div class="job-card">
+
+        <div class="job-title">{{role}}</div>
+        <div class="company">{{company}}</div>
+
+        <div class="meta">
+          <span>📌 {{employmentType}}</span>
+          <span>🏠 {{workMode}}</span>
+          <span>📍 {{location}}</span>
+          {{#if duration}}
+          <span>⏳ {{duration}}</span>
+          {{/if}}
+        </div>
+
+        {{#if requiredSkills.length}}
+        <div class="skills">
+          <strong>Skills:</strong>
+          {{requiredSkills}}
+        </div>
+        {{/if}}
+
+        <div class="summary">
+          {{summary}}
+        </div>
+
+        <a class="apply-btn" href="{{applyLink}}" target="_blank">
+          Apply Now →
+        </a>
+
+      </div>
+      {{/each}}
+      <!-- 🔁 LOOP END -->
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>
+        This is an automated email. Please do not reply.
+      </p>
+      <p>
+        <a href="{{unsubscribeLink}}">Unsubscribe</a> • © {{year}} Job Alerts
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>

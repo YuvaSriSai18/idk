@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subscription Confirmed</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #4f46e5, #6366f1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: #ffffff;
+      max-width: 460px;
+      width: 100%;
+      padding: 36px;
+      border-radius: 14px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      text-align: center;
+    }
+
+    .icon {
+      font-size: 48px;
+      margin-bottom: 12px;
+    }
+
+    .title {
+      font-size: 24px;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #6b7280;
+      margin-bottom: 20px;
+    }
+
+    .message {
+      font-size: 15px;
+      color: #374151;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .highlight {
+      font-weight: 600;
+      color: #4f46e5;
+    }
+
+    .note {
+      background: #f4f7fb;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: 14px;
+      color: #374151;
+      margin-bottom: 24px;
+    }
+
+    .footer {
+      font-size: 12px;
+      color: #6b7280;
+      margin-top: 16px;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 28px;
+      }
+
+      .title {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="icon">🎉</div>
+
+    <div class="title">Subscription Confirmed!</div>
+    <div class="subtitle">You’re all set 🚀</div>
+
+    <div class="message">
+      Thank you for subscribing to <span class="highlight">Job Alerts</span>.
+      Your email <span class="highlight">{{email}}</span> has been successfully verified.
+    </div>
+
+    <div class="note">
+      You will now receive curated job and internship opportunities directly in your inbox whenever new openings are detected.
+    </div>
+
+    <div class="message">
+      Keep an eye on your inbox and don’t forget to check your spam folder just in case.
+    </div>
+
+    <div class="footer">
+      You can unsubscribe anytime using the link provided in our emails.
+    </div>
+  </div>
+
+</body>
+</html>

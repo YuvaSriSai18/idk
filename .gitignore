@@ -3,6 +3,8 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+#firebase service account json
+utils/service_account.json
 # C extensions
 *.so
 
