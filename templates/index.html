@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Job Alerts – Subscribe</title>
-    <link rel="web icon" href="https://img.freepik.com/free-vector/job-alert-abstract-concept-illustration-job-notification-career-alert-work-opportunity-information-online-application-status-digital-hr-human-resources-service_335657-3353.jpg">
+
+    <link
+      rel="icon"
+      href="https://img.freepik.com/free-vector/job-alert-abstract-concept-illustration-job-notification-career-alert-work-opportunity-information-online-application-status-digital-hr-human-resources-service_335657-3353.jpg"
+    />
+
     <style>
       * {
         box-sizing: border-box;
@@ -81,9 +86,19 @@
       }
 
       #error {
-        color: #dc2626;
         font-size: 13px;
         display: none;
+      }
+
+      .spam-note {
+        margin-top: 14px;
+        font-size: 13px;
+        color: #6b7280;
+        background: #f9fafb;
+        border: 1px dashed #e5e7eb;
+        padding: 10px;
+        border-radius: 8px;
+        line-height: 1.5;
       }
 
       .footer {
@@ -115,6 +130,7 @@
       }
     </style>
   </head>
+
   <body>
     <div class="card">
       <div class="logo">🚀 Job Alerts</div>
@@ -129,20 +145,23 @@
           type="email"
           id="emailInput"
           name="email"
-          placeholder="Enter E-Mail address"
+          placeholder="Enter your email address"
           required
         />
         <div id="error"></div>
-        <button type="submit">Resgister for Subscribing</button>
+        <button type="submit">Register for Subscribing</button>
       </form>
 
-      <div class="footer">
-        <span>No spam. Unsubscribe anytime.</span>
+      <div class="spam-note">
+        📬 Didn’t receive the email? Please check your <b>Spam</b> folder and
+        mark the email as <b>“Not Spam”</b> to receive future job alerts.
       </div>
+
+      <div class="footer">No spam. Unsubscribe anytime.</div>
 
       <div class="link-section">
         <div class="link-text">Already unsubscribed?</div>
-        <a href="/resubscribe">Re-Subscribe Here →</a>
+        <a href="/resubscribe">Re-subscribe here →</a>
       </div>
     </div>
 
@@ -181,12 +200,14 @@
         errorBox.textContent = "";
 
         if (!isValidEmail(email)) {
+          errorBox.style.color = "#dc2626";
           errorBox.textContent = "Invalid email format.";
           errorBox.style.display = "block";
           return;
         }
 
         if (!isAllowedDomain(email)) {
+          errorBox.style.color = "#dc2626";
           errorBox.textContent =
             "Only Gmail or official university/college email addresses are allowed.";
           errorBox.style.display = "block";
@@ -202,23 +223,20 @@
             body: formData,
           });
 
+          const data = await response.json();
+
           if (!response.ok) {
-            const errorData = await response.json();
-            errorBox.style.color = "#dc2626";
-            errorBox.textContent = `Error: ${error.detail}`;
-            errorBox.style.display = "block";
-            throw new Error(errorData.detail || "Registration failed");
+            throw new Error(data.detail || "Registration failed");
           }
 
-          const data = await response.json();
           errorBox.style.color = "#22c55e";
           errorBox.textContent =
-            "✅ Check your email to verify your subscription!";
+            "✅ Verification email sent! Please check your Inbox or Spam folder and mark it as Not Spam.";
           errorBox.style.display = "block";
           emailInput.value = "";
-        } catch (error) {
+        } catch (err) {
           errorBox.style.color = "#dc2626";
-          errorBox.textContent = `Error: ${error.message}`;
+          errorBox.textContent = `Error: ${err.message}`;
           errorBox.style.display = "block";
         }
       });

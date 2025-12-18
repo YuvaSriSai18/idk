@@ -1,5 +1,8 @@
 # 🚀 Job Alerts
 
+![Job Alerts Bot Architecture](https://firebasestorage.googleapis.com/v0/b/cloud0924.appspot.com/o/github_images%2FJob_Alerts_Bot_Architecture.png?alt=media&token=8f7f9aec-b484-4b2b-8388-58cd2dc0000c)
+
+
 ## Overview
 
 **Job Alerts** is an AI-powered job and internship notification system that automatically extracts job openings from YouTube videos and sends them to subscribed users via email. Built with FastAPI, Gemini AI, and Firebase.
@@ -35,8 +38,8 @@ Never miss a job opportunity again. Subscribe to get curated job alerts delivere
 
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/YuvaSriSai18/idk.git
-   cd idk
+   git clone https://github.com/YuvaSriSai18/Job-Alerts-Bot.git
+   cd Job-Alerts-Bot
    ```
 
 2. **Install Dependencies**
