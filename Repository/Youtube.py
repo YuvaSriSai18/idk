@@ -152,7 +152,6 @@ Return STRICT JSON ONLY:
         """
         transcript = self.get_transcript(video_id)
         
-        # Don't return early - transcript might be unavailable but title/description might have job info
         if not transcript:
             print(f"   ⚠️  Transcript not available for {video_id}, trying with title/description only")
             transcript = ""
