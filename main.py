@@ -64,7 +64,7 @@ async def register_user(email: str = Form(...)):
     )
 
     verify_link = f"{BASE_URL}/verify-email/{verification_token}"
-
+    # print(verify_link)
     SendGridObj.send_verification_email(
         email=email,
         verify_link=verify_link
@@ -299,12 +299,10 @@ async def cron_job_alert(x_cron_secret: str = Header(None)):
                     emails_failed += 1
                     continue
                 
-                unsubscribe_link = f"{BASE_URL}/unsubscribe/{token}"
-                
                 SendGridObj.send_job_alert_email(
                     email=email,
                     openings=all_openings,
-                    unsubscribe_link=unsubscribe_link
+                    unsubscribe_token=token
                 )
                 
                 print(f"   [{i}/{len(active)}] ✅ Sent to {email}")

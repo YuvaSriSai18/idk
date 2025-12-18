@@ -16,7 +16,7 @@ class SendGridService:
         if not self.api_key:
             raise ValueError("SENDGRID_API_KEY not found in environment variables")
         
-        self.from_email = ("keximof870@gamintor.com", "Job Alerts")
+        self.from_email = ("yuvasrisai18@gmail.com", "Job Alerts")
         self.client = SendGridAPIClient(self.api_key)
 
     def _load_template(self, template_name: str) -> str:
@@ -38,6 +38,7 @@ class SendGridService:
             message.reply_to = ReplyTo("noreply@sendgrid.net")
 
             response = self.client.send(message)
+            print("E-Mail has been sent")
             return response.status_code
         
         except Exception as e:
@@ -54,15 +55,13 @@ class SendGridService:
 
     def send_verification_email(self, email: str, verify_link: str):
         template = self._load_template("verify_subscription.html")
-
-        full_verify_link = f"{BASE_URL}{verify_link}"
-
+        print(verify_link)
         html = (
             template
-            .replace("{{ verifyLink }}", full_verify_link)
+            .replace("{{ verifyLink }}", verify_link)
             .replace("{{ year }}", str(datetime.now().year))
         )
-
+        
         return self._send(
             to_email=email,
             subject="Confirm your Job Alerts subscription",
