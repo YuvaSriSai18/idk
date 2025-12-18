@@ -2,7 +2,6 @@
 fastapi
 uvicorn
 python-multipart
-fastapi-utilities
 Jinja2
 
 # Environment & Configuration
@@ -10,6 +9,7 @@ python-dotenv
 
 # Email Service
 sendgrid
+
 # Firebase & Google Cloud
 firebase-admin
 google-cloud-firestore
@@ -29,6 +29,6 @@ PyJWT
 # YouTube
 youtube-transcript-api
 
-# Utilities
-Jinja2
+# HTTP Client
+httpx
 requests
