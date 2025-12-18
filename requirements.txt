@@ -1,6 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+
 youtube-transcript-api
 sendgrid
 google-api-python-client
 google-generativeai
 pyjwt
-uvicorn
